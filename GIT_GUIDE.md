@@ -8,8 +8,8 @@ Um guia rápido para consultas diárias e comandos essenciais do Git.
 Antes de começar, é necessário dizer ao Git quem você é. Isso evita erros de permissão e identidade nos commits.
 
 ```bash
-git config --global user.name "sacramentobernardes"
-git config --global user.email "sacramentobernardes@gmail.com"
+git config --global user.name "user_name"
+git config --global user.email "user_email"
 ```
 
 ## 2. Começando um Repositório
