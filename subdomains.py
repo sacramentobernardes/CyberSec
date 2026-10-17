@@ -1,7 +1,9 @@
 import requests
 import sys 
 
-file = open('WordLists/subdomains100.txt')
+wordlist = sys.argv[2]
+
+file = open(wordlist)
 
 url = sys.argv[1]
 

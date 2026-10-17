@@ -1,11 +1,12 @@
 import requests
 import sys
 
-file = open('WordLists/subdomains100.txt')
-
 url = sys.argv[1]
 
-# lista = ["admin","login", "css", "sport", "shop"]
+wordlist = sys.argv[2]
+
+file = open(wordlist)
+
 print("")
 print("Caso queira parar a ferramenta aperte 'ctrl + Z'.")
 print("")
